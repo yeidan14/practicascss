@@ -1,0 +1,107 @@
+body {
+
+    background-color: rgba(128, 105, 112, 0.226);
+}
+
+h1 {
+    color: red;
+    font-family: fantasy;
+}
+
+article li {
+
+    color: #00F;
+}
+
+article li strong {
+
+    color: #000;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    clear: both;
+
+}
+
+section {
+
+    float: left;
+    width: 70%;
+}
+#formacion{
+    float: left;
+    width: 50%; 
+}
+#experiencia{
+    float: left;
+    width: 50%;
+}
+article li.actual{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+#formacion ul li:first-child{
+font-weight: bolder;
+font-size: 1.2em;
+}
+nav ul{
+    padding: 0; 
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #2175bc;
+    color :#fff;
+}
+
+nav ul li a:hover{
+    background-color: #2586d7;
+    margin-top: -2px;
+    padding-bottom: 12px;
+}
+
+footer{
+    clear:both;
+    align-content: center;
+    background-color: rgba(31, 143, 247, 0.301);
+    text-align: center;
+    font-family:fantasy;
+    font-size: 20px;
+    color: #fff;
+}
+
+@media(min-width:601px)and(max-width:1000px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    aside{
+        float:left; 
+        width:40%;
+        clear: both;
+    }
+    section{
+        float: left;
+        width: 60%;
+    }
+    #formacion{
+        width: 100%;
+    }
+    #experiencia{
+        width:100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* Aquí van todos los estilos CSS */
+}
+
